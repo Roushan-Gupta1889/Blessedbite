@@ -19,7 +19,7 @@ const getTestimonials = async () => {
     filter();
   });
   
-  /* ========== Display Testimonials =========== */
+  /* Display Testimonials  */
   const displayTestimonials = (items) => {
     let testimonials = items.map(
       (item) => ` 
@@ -50,7 +50,6 @@ const getTestimonials = async () => {
     testimonialsWrapper.innerHTML = testimonials;
   };
   
-  /* ========== Filter Testimonials =========== */
   function filter() {
     const testimonial = [...document.querySelectorAll('.testimonial')];
     for (let i = 0; i < cards.length; i++) {

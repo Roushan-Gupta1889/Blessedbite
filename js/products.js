@@ -58,7 +58,7 @@ const swiper = new Swiper(".mySwiper", {
                     <div class="price">
                       <span>Price</span><span class="color"> Rs ${product.price}</span>
                     </div>
-                    <button id="add-to-cart" class="button btn ">Add To Cart+</button>
+                    <button id="add-to-cart" onClick="addToCart(${product.id})" class="button btn ">Add To Cart+</button>
                   </div>
                 </div>
                     `

@@ -4,29 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--=============== Favicon ===============-->
+    
     <link
       rel="shortcut icon"
       href="./images/hacklogo.png"
       type="image/png"
     />
-    <!--=============== Swiper CSS ===============-->
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
-    <!--=============== Boxicons ===============-->
     <link
       href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <!--=============== Custom StyleSheet ===============-->
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Tasty treasure</title>
     
   </head>
   <body>
-    <!--Header-->
     <div style="background-image: url('./images/background.jpeg'); opacity: 0.1; height: 100vh; width: 100%; position: absolute; top: 0; left: 0; z-index: -1; background-repeat: no-repeat; background-size: cover;"></div>
     <header class="header">
       <nav class="navbar">
@@ -54,19 +50,19 @@
             </form>
             <div class="cart-icon d-flex">
               <i class="bx bx-shopping-bag"></i>
-              <span>0</span>
+              <span id="addedproduct">0</span>
             </div>
             <a class="btn signin">Sign In</a>
           </div>
 
-          <!-- Hamburger -->
+
           <div class="hamburger d-flex">
             <i class="bx bx-menu"></i>
           </div>
         </div>
       </nav>
 
-      <!--=============== Home ===============-->
+
       <div class="home">
         <div class="row container">
           <div class="col">
@@ -94,7 +90,7 @@
         </div>
       </div>
 
-      <!--=============== SignIn Form ===============-->
+
       <div class="wrapper">
 
 
@@ -128,7 +124,7 @@
       </div>
     </header>
 
-    <!--=============== Services ===============-->
+
     <section class="section services" id="services">
       <div class="row container">
         <div class="col">
@@ -170,7 +166,7 @@
       </div>
     </section>
 
-    <!--=============== About ===============-->
+
     <section class="section about" id="about">
       <div class="row container">
         <div class="col">
@@ -220,23 +216,9 @@
           <div class="products">
             <div class="swiper mySwiper">
               <div class="swiper-wrapper" id="products-wrapper">
-                <!-- <div class="swiper-slide">
-                  <div class="card">
-                    <div class="image"><img src="./images/meat-2.svg" alt=""></div>
-                    <div class="rating">
-                    <span><i class="bx bxs-star"></i></span>
-                    <span><i class="bx bxs-star"></i></span>
-                    <span><i class="bx bxs-star"></i></span>
-                    <span><i class="bx bxs-star"></i></span>
-                    <span><i class="bx bxs-star"></i></span>
-                    </div>
-                    <h4>Crispy Fried Chicken</h4>
-                    <div class="price">
-                      <span>Price</span><span class="color">$13.00</span>
-                    </div>
-                    <div class="button">Add To Cart+</div>
-                  </div>
-                </div> -->
+                
+
+
               
             
                 <!-- Payment Modal -->
@@ -260,17 +242,18 @@
           </div>
         </div>
       </section>
-    <!--=============== Testimonials ===============-->
-    <section class="section testimonials" id="testimonials">
+
+
+      <section class="section testimonials" id="testimonials">
       <div class="row container">
         <div class="col">
           <div class="card" data-filter="Arpit">
             <div class="d-flex">
               <div class="image">
-                <img src="" alt="">
+                <img src="./images/arpit mehla 3.jpg" alt="" >
               </div>
               <div>
-                <h4>Arpit Mehla</h4>
+                <h4 id="arpit"><a href="https://www.linkedin.com/in/arpit-mehla-83881232a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Arpit Mehla <i class="bx bxl-linkedin" style="background-color: blue; color: aliceblue; border-radius: 5px;"></i></a></h4>
                 <span>Marketing Coordinator</span>
               </div>
             </div>
@@ -278,10 +261,10 @@
           <div class="card" data-filter="Mohit">
             <div class="d-flex">
               <div class="image">
-                <img src="" alt="" />
+                <img src="./images/mohit jangid.jpg" alt="" />
               </div>
               <div>
-                <h4>Mohit Jangid</h4>
+                <h4><a href="https://www.linkedin.com/in/mohitjangirworks?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> Mohit Jangid <i class="bx bxl-linkedin" style="background-color: blue; color: aliceblue; border-radius: 5px;"></i></a></h4>
                 <span>Web Designer</span>
               </div>
             </div>
@@ -289,10 +272,10 @@
           <div class="card" data-filter="OM">
             <div class="d-flex">
               <div class="image">
-                <img src="" alt="" />
+                <img src="./images/om patil.jpg" alt="" style="padding-left: 10px;">
               </div>
               <div>
-                <h4>Om Patil</h4>
+                <h4><a href="https://www.linkedin.com/in/om-patil-581a13326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> Om Patil <i class="bx bxl-linkedin" style="background-color: blue; color: aliceblue; border-radius: 5px;"></i> </a></h4>
                 <span>Designer</span>
               </div>
             </div>
@@ -300,10 +283,10 @@
           <div class="card" data-filter="Rohit">
             <div class="d-flex">
               <div class="image">
-                <img src="" alt="" />
+                <img src="./images/lamba.jpg" alt="" style="padding-left: 12px;">
               </div>
               <div>
-                <h4>Rohit Lamba</h4>
+                <h4><a href="https://www.linkedin.com/in/rohit-lamba-50a66a32a/"> Rohit Lamba <i class="bx bxl-linkedin" style="background-color: blue; color: aliceblue; border-radius: 5px;"></i> </a></h4>
                 <span>Designer</span>
               </div>
             </div>
@@ -311,10 +294,10 @@
           <div class="card" data-filter="Shalil">
             <div class="d-flex">
               <div class="image">
-                <img src="." alt="" />
+                <img src="./images/sahil soni .jpg" alt="" / style="padding-left: 10px;">
               </div>
               <div>
-                <h4>Shalil Soni</h4>
+                <h4><a href="https://www.linkedin.com/in/sahilsonime?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> Shail Soni <i class="bx bxl-linkedin" style="background-color: blue; color: aliceblue; border-radius: 5px;"></i> </a> </h4>
                 <span>Management</span>
               </div>
             </div>
@@ -325,7 +308,7 @@
                 <img src="./images/Screenshot 2024-12-28 022552.png" alt="" />
               </div>
               <div>
-                <h4>Roushan Gupta</h4>
+                <h4><a href="https://www.linkedin.com/in/roushan-gupta-46193b311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> Roushan Gupta <i class="bx bxl-linkedin" style="background-color: blue; color: aliceblue; border-radius: 5px;"></i> </a></h4>
                 <span>Web Developer</span>
               </div>
             </div>
@@ -365,7 +348,8 @@
         </div>
       </div>
     </section>
-    <!--=============== App ===============-->
+
+
     <section class="section app">
       <div class="row container">
         <div class="col">
@@ -392,7 +376,7 @@
     </form>
     </section>
     
-    <!--=============== Footer ===============-->
+
     <footer class="footer" id="foot">
       <div class="row container">
         <div class="col">
@@ -414,30 +398,30 @@
         <div class="col">
           <div>
             <h4>Company</h4>
-            <a href="">About Us</a>
+            <a href="#testimonials" class="nav-link"> About Us</a>
             <a href="">Blog</a>
-            <a href="">All Products</a>
-            <a href="">Locations Map</a>
+            <a href="#recipes" class="nav-link">All Products</a>
+            <a href="https://maps.app.goo.gl/WBxruWnmYsamVMTRA">Locations Map</a>
           </div>
           <div>
             <h4>Services</h4>
             <a href="">Order tracking</a>
             <a href="">Wish List</a>
             <a href="">My account</a>
-            <a href="">Terms & Conditions</a>
+            <a href="doc/Website Terms & Conditions.pdf">Terms & Conditions</a>
           </div>
           <div>
             <h4>Support</h4>
             <a href="">FAQ</a>
-            <a href="">Policy </a>
+            <a href="c:\Users\ramn6\Downloads\Whistleblowing Policy.pdf">Policy </a>
             <a href="">Business</a>
-            <a href="">Support Carrer</a>
+            <a href="https://wa.me/+919057095009">Support Carrer</a>
           </div>
           <div>
             <h4>Contact</h4>
-            <a href="">WhatsApp</a>
-            <a href="">Support 24 </a>
-            <a href="">Quick Chat</a>
+            <a href="https://wa.me/+919057095009">WhatsApp</a>
+            <a href="https://wa.me/+919057095009">Support 24X7 </a>
+            <a href="https://wa.me/+919057095009">Quick Chat</a>
           </div>
         </div>
       </div>
@@ -449,58 +433,36 @@
       </div>
     </div>
 
-    <!--=============== Swiper JS ===============-->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <!--=============== Custom JS ===============-->
+    
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./js/testimonial.js"></script>
     <script src="./js/products.js"></script>
     <script src="./js/main.js"></script>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <!-- Element to contain animated typing -->
-
-
-    <!-- Load library from the CDN -->
+    <script src="./js/cart.js"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-    <!-- Setup and start animation! --><span id="element"
-                                >
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+    <span id="element">
     <script>
         var typed = new Typed('#element', {
             strings: ['&', 'close to your heart', ],
             typeSpeed: 100,
         });
+        function addtocart() {
+            var addedproduct = document.getElementById('#addedproduct');
+            console.log(addedproduct.innerHTML);
+            addedproduct.innerHTML = parseInt(addedproduct.innerHTML) + 1;
+        }
     </script>
    
 
-<script>
-    // Get form and email input elements
-    const form = document.getElementById('contactForm');
-    const emailInput = document.getElementById('email');
 
-    // Load email from local storage if available
-    window.addEventListener('load', () => {
-        const savedEmail = localStorage.getItem('email');
-        if (savedEmail) {
-            emailInput.value = savedEmail;
-        }
-    });
 
-    // Save email to local storage on form submission
-    form.addEventListener('submit', (event) => {
-        event.preventDefault(); // Prevent default form submission
-
-        const email = emailInput.value.trim();
-
-        // Save email to local storage
-        if (email) {
-            localStorage.setItem('email', email);
-            alert('Email saved in local storage!');
-            form.reset(); // Reset the form
-        } else {
-            alert('Please enter a valid email.');
-        }
-    });
-</script>
   </body>
 </html>
