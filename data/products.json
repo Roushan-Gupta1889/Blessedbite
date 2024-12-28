@@ -1,0 +1,49 @@
+{
+    "products": [
+        {
+            "id": 2,
+            "title": "Normal Thali",
+            "price": "130.00",
+            "url": "./images/Normal.jpg",
+            "category": "Normal Mode"
+          },
+      {
+        "id": 1,
+        "title": "Special Thali",
+        "price": "150.00",
+        "url": "./images/dish-1.png",
+        "category": "Normal Mode"
+      },
+  
+      {
+        "id": 3,
+        "title": "Jumboparty Thali",
+        "price": "170.00",
+        "url": "./images/jumbo1.jpg",
+        "category": "Normal Mode"
+      },
+      {
+        "id": 4,
+        "title": "Monthly Basis",
+        "price": "5999/-",
+        "url": "./images/dish-1.png",
+        "category": "Subscription Mode"
+      },
+      {
+        "id": 5,
+        "title": "Weekly Basis",
+        "price": "1499/-",
+        "url": "./images/dish-1.png",
+        "category": "Subscription Mode"
+      },
+      
+  
+      {
+        "id": 16,
+        "title": "3 Months Basis",
+        "price": "16,524/-",
+        "url": "./images/dish-1.png",
+        "category": ""
+      }
+    ]
+  }

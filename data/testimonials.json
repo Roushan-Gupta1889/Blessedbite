@@ -1,0 +1,34 @@
+{
+    "testimonials": [
+      {
+        "id": 1,
+        "name": "Arpit Mehla",
+        "firstName": "Arpit",
+        "position": "Marketing Coordinator",
+        "info": "“Having good restaurant reviews is crucial these days. It is not just making our decision to pick one easier, it is also helping the restaurant be more successful. ”",
+        "class": "active"
+      },
+      {
+        "id": 2,
+        "name": "Mohit Jangid",
+        "firstName": "Mohit",
+        "position": "Web Designer",
+        "info": "“Having good restaurant reviews is crucial these days. It is not just making our decision to pick one easier, it is also helping the restaurant be more successful. ”"
+      },
+      {
+        "id": 3,
+        "name": "Om patil",
+        "firstName": "OM",
+        "position": "President of Sales",
+        "info": "“Having good restaurant reviews is crucial these days. It is not just making our decision to pick one easier, it is also helping the restaurant be more successful”"
+      },
+      {
+        "id": 4,
+        "name": "Rohit Lamba",
+        "firstName": "Rohit",
+        "position": "Marketing Coordinator",
+        "info": "“Having good restaurant reviews is crucial these days. It is not just making our decision to pick one easier, it is also helping the restaurant be more successful”"
+      }
+ 
+    ]
+  }

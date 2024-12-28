@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== Favicon ===============-->
+    <link
+      rel="shortcut icon"
+      href="./images/hacklogo.png"
+      type="image/png"
+    />
+    <!--=============== Swiper CSS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!--=============== Boxicons ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--=============== Custom StyleSheet ===============-->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Tasty treasure</title>
+    
+  </head>
+  <body>
+    <!--Header-->
+    <div style="background-image: url('./images/background.jpeg'); opacity: 0.1; height: 100vh; width: 100%; position: absolute; top: 0; left: 0; z-index: -1; background-repeat: no-repeat; background-size: cover;"></div>
+    <header class="header">
+      <nav class="navbar">
+        <div class="row d-flex container">
+          <a href="" class="logo d-flex">
+            <h1>Blessed Bites</h1>
+            
+            <img src="./" alt="">
+           
+            
+          </a>
+
+          <ul class="nav-list d-flex">
+            <a href="" class="nav-link">Home</a>
+            <a href="#services" class="nav-link">About</a>
+            <a href="#recipes" class="nav-link">Recipes</a>
+            <a href="#foot" class="nav-link">Contact</a>
+            <span id="cart" class="close d-flex"><i class="bx bx-x"></i></span>
+          </ul>
+
+          <div class="col d-flex">
+            <form>
+              <input type="search" placeholder="Search your item" />
+              <button class="d-flex"><i class="bx bx-search"></i></button>
+            </form>
+            <div class="cart-icon d-flex">
+              <i class="bx bx-shopping-bag"></i>
+              <span>0</span>
+            </div>
+            <a class="btn signin">Sign In</a>
+          </div>
+
+          <!-- Hamburger -->
+          <div class="hamburger d-flex">
+            <i class="bx bx-menu"></i>
+          </div>
+        </div>
+      </nav>
+
+      <!--=============== Home ===============-->
+      <div class="home">
+        <div class="row container">
+          <div class="col">
+            <div class="faster">
+              More than Faster
+              <div class="image d-flex">
+                <img src="./images/french-fries.svg" alt="" />
+              </div>
+            </div>
+            <h1>
+              Get your Home like food <br />
+              delivered right to <br />
+              <span class="color" style="color: red;">your door & <span id="element"
+                style="color: red">close to your heart</span>
+            </h1>
+            <p>
+              Food that is delivered at the right time. The trendy food delivery
+              partner. Good food is what we deliver. Your hunger companion.
+            </p>
+            <a href="#recipes" class="btn">Explore Food</a>
+          </div>
+          <div class="col">
+            <img src="./images/delivery-guy.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!--=============== SignIn Form ===============-->
+      <div class="wrapper">
+
+
+        <form action="" class="form"  id="contactForm">
+          <h2>SIGN IN</h2>
+
+          <div class="control">
+            <label for="email">Enter Email:</label>
+            <input type="email"  name="email" required placeholder="Enter Your Email" />
+          </div>
+          <div class="control">
+            <label for="">Password:</label>
+            <input type="password" placeholder="Password" />
+          </div>
+          <div class="checkbox d-flex">
+            <input type="checkbox" />
+            <span>Remember Me</span>
+          </div>
+          <button class="btn" type="submit">Sign In</button>
+          <div class="links">
+            <span>Forgot Password? <a href="">Click Here</a></span>
+            <span>Don't Have An Account? <a href="">Create One</a></span>
+          </div>
+        </form>
+
+
+
+        <div class="close-form">
+          <i class="bx bx-x"></i>
+        </div>
+      </div>
+    </header>
+
+    <!--=============== Services ===============-->
+    <section class="section services" id="services">
+      <div class="row container">
+        <div class="col">
+          <h2>Why <span style="color: red; ">Blessed Bites</span></h2>
+          <p>
+             We takes about <b>35-40 minutes</b> to deliver the food after the order is placed. The delivery time may vary depending on the location and the Kitchen. However, we always strive to deliver the food as soon as possible to ensure that the food is hot and fresh when it reaches you.
+          </p>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/food1.webp" style=" border-radius: 10%;" alt="" />
+            <h3>
+              Choose <br />
+              your favorite <br />
+              food
+            </h3>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/delivery-icon.svg" alt="" />
+            <h3>
+              Get delivery <br />
+              at your door <br />
+              step
+            </h3>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/phone-icon.svg" alt="" />
+            <h3>
+              Give Your  <br />
+              Valuable <br />
+              feedback
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== About ===============-->
+    <section class="section about" id="about">
+      <div class="row container">
+        <div class="col">
+          <img src="./images/delivery-guy-2.svg" alt="" />
+        </div>
+        <div class="col">
+          <h2>Take a look at the benefits we offer for you</h2>
+          <p>
+            Good service means a friendly, welcoming service. Our kitchen owners
+            should not merely strive to avoid bad service,
+          </p>
+          <div class="d-grid">
+            <div class="card">
+              <img src="./images/car-icon.svg" alt="" />
+              <h4>Free Home Delivary</h4>
+              <span>On all orders for subscription based customers</span>
+            </div>
+            <div class="card">
+              <img src="./images/dollar-icon.svg" alt="" />
+              <h4>Return & Refund</h4>
+              <span>Money Back Guarantee</span>
+            </div>
+            <div class="card">
+              <img src="./images/security-icon.svg" alt="" />
+              <h4>Secure Payment</h4>
+              <span>100% Secure Payment</span>
+            </div>
+            <div class="card">
+              <img src="./images/time-icon.svg" alt="" />
+              <h4>Quality Support</h4>
+              <span>Alway Online 24/7</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section recipes" id="recipes">
+        <h2>Try Our Special Recipes</h2>
+        <div class="row container">
+          <div class="filters d-flex">
+            <span data-filter="All Product">See All Product</span>
+            <span data-filter="Normal Mode">Normal Mode</span>
+            <span data-filter="Subscription Mode">Subscription Mode</span>
+            
+          </div>
+          <div class="products">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper" id="products-wrapper">
+                <!-- <div class="swiper-slide">
+                  <div class="card">
+                    <div class="image"><img src="./images/meat-2.svg" alt=""></div>
+                    <div class="rating">
+                    <span><i class="bx bxs-star"></i></span>
+                    <span><i class="bx bxs-star"></i></span>
+                    <span><i class="bx bxs-star"></i></span>
+                    <span><i class="bx bxs-star"></i></span>
+                    <span><i class="bx bxs-star"></i></span>
+                    </div>
+                    <h4>Crispy Fried Chicken</h4>
+                    <div class="price">
+                      <span>Price</span><span class="color">$13.00</span>
+                    </div>
+                    <div class="button">Add To Cart+</div>
+                  </div>
+                </div> -->
+              
+            
+                <!-- Payment Modal -->
+                <div id="payment-modal" class="modal">
+                    <div class="payment-modal-content">
+                        <div class="payment-header">
+                            <strong>Payment via PhonePe</strong>
+                        </div>
+                        <div class="payment-summary">
+                            <div><strong>Amount:</strong> $<span id="payment-amount">0</span></div>
+                            <div><strong>Payment Method:</strong> PhonePe</div>
+                        </div>
+                        <button class="payment-button" id="confirm-payment-btn">Confirm Payment</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="pagination">
+              <div class="custom-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!--=============== Testimonials ===============-->
+    <section class="section testimonials" id="testimonials">
+      <div class="row container">
+        <div class="col">
+          <div class="card" data-filter="Arpit">
+            <div class="d-flex">
+              <div class="image">
+                <img src="" alt="">
+              </div>
+              <div>
+                <h4>Arpit Mehla</h4>
+                <span>Marketing Coordinator</span>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-filter="Mohit">
+            <div class="d-flex">
+              <div class="image">
+                <img src="" alt="" />
+              </div>
+              <div>
+                <h4>Mohit Jangid</h4>
+                <span>Web Designer</span>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-filter="OM">
+            <div class="d-flex">
+              <div class="image">
+                <img src="" alt="" />
+              </div>
+              <div>
+                <h4>Om Patil</h4>
+                <span>Designer</span>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-filter="Rohit">
+            <div class="d-flex">
+              <div class="image">
+                <img src="" alt="" />
+              </div>
+              <div>
+                <h4>Rohit Lamba</h4>
+                <span>Designer</span>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-filter="Shalil">
+            <div class="d-flex">
+              <div class="image">
+                <img src="." alt="" />
+              </div>
+              <div>
+                <h4>Shalil Soni</h4>
+                <span>Management</span>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-filter="Roushan">
+            <div class="d-flex">
+              <div class="image">
+                <img src="./images/Screenshot 2024-12-28 022552.png" alt="" />
+              </div>
+              <div>
+                <h4>Roushan Gupta</h4>
+                <span>Web Developer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <h2>
+            What is our Team <br />
+            <span> saying ?</span>
+          </h2>
+          <div class="test-wrapper">
+            <div class="testimonial active" data-id="rosele">
+              <div class="d-flex">
+                <div>
+                  <h4>a</h4>
+                  <span>Marketing Coordinator</span>
+                </div>
+
+                <div class="rating">
+                  <span><i class="bx bxs-star"></i></span>
+                  <span><i class="bx bxs-star"></i></span>
+                  <span><i class="bx bxs-star"></i></span>
+                  <span><i class="bx bxs-star"></i></span>
+                  <span><i class="bx bxs-star"></i></span>
+                </div>
+              </div>
+
+              <p>
+                “Having good restaurant reviews is crucial these days. It is not
+                just making our decision to pick one easier, it is also helping
+                the restaurant be more successful. You can quickly copy and
+                paste these good restaurant review examples, publish them on
+                Facebook”
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=============== App ===============-->
+    <section class="section app">
+      <div class="row container">
+        <div class="col">
+          <div class="circle">
+            <div class="inner-circle"></div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <h2>
+            Never Feel Hungry! Use Our Website For Order Delicious Food
+          </h2>
+          <p>
+            Online ordering has enabled many restaurants to manage their peak
+            business hours very effectively.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section contact" id="contact">
+       
+            </div>
+        </div>
+    </form>
+    </section>
+    
+    <!--=============== Footer ===============-->
+    <footer class="footer" id="foot">
+      <div class="row container">
+        <div class="col">
+          <div class="logo d-flex">
+            <h1>Blessed Bites</h1>
+          </div>
+          <p>
+            Retail food delivery is a courier service in which a restaurant,
+            store, or independent food-delivery
+          </p>
+          <div class="icons d-flex">
+            <div class="icon d-flex">
+              <i class="bx bxl-facebook"></i>
+            </div>
+            <div class="icon d-flex"><i class="bx bxl-twitter"></i></div>
+            <div class="icon d-flex"><i class="bx bxl-linkedin"></i></div>
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            <h4>Company</h4>
+            <a href="">About Us</a>
+            <a href="">Blog</a>
+            <a href="">All Products</a>
+            <a href="">Locations Map</a>
+          </div>
+          <div>
+            <h4>Services</h4>
+            <a href="">Order tracking</a>
+            <a href="">Wish List</a>
+            <a href="">My account</a>
+            <a href="">Terms & Conditions</a>
+          </div>
+          <div>
+            <h4>Support</h4>
+            <a href="">FAQ</a>
+            <a href="">Policy </a>
+            <a href="">Business</a>
+            <a href="">Support Carrer</a>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <a href="">WhatsApp</a>
+            <a href="">Support 24 </a>
+            <a href="">Quick Chat</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="footer-bottom">
+      <div class="row container d-flex">
+        <p>Copyright © Techno Wizard</p>
+        <p>Created by Tecno Wizard</p>
+      </div>
+    </div>
+
+    <!--=============== Swiper JS ===============-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!--=============== Custom JS ===============-->
+    <script src="./js/testimonial.js"></script>
+    <script src="./js/products.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Element to contain animated typing -->
+
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! --><span id="element"
+                                >
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['&', 'close to your heart', ],
+            typeSpeed: 100,
+        });
+    </script>
+   
+
+<script>
+    // Get form and email input elements
+    const form = document.getElementById('contactForm');
+    const emailInput = document.getElementById('email');
+
+    // Load email from local storage if available
+    window.addEventListener('load', () => {
+        const savedEmail = localStorage.getItem('email');
+        if (savedEmail) {
+            emailInput.value = savedEmail;
+        }
+    });
+
+    // Save email to local storage on form submission
+    form.addEventListener('submit', (event) => {
+        event.preventDefault(); // Prevent default form submission
+
+        const email = emailInput.value.trim();
+
+        // Save email to local storage
+        if (email) {
+            localStorage.setItem('email', email);
+            alert('Email saved in local storage!');
+            form.reset(); // Reset the form
+        } else {
+            alert('Please enter a valid email.');
+        }
+    });
+</script>
+  </body>
+</html>
